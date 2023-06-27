@@ -12,6 +12,9 @@
             int valueTwo = Convert.ToInt32(Console.ReadLine());
             ifElse.EqualorNot(valueOne, valueTwo);
 
+            ifElse.EvenOrOdd(valueOne);
+
+
         }
     }
 }

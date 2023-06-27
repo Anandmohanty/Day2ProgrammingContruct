@@ -21,5 +21,18 @@ namespace Day2ProgrammingContruct
                 Console.WriteLine("Given integers is not Equal");
             }
         }
+
+        //Write a C# Sharp program to check whether a given number is even or odd.
+        public void EvenOrOdd(int givenData)
+        {
+            if (givenData % 2 == 0)
+            {
+                Console.WriteLine("Given Number is Even Number");
+            }
+            else
+            {
+                Console.WriteLine("Ggiven Number is Odd Number");
+            }
+        }
     }
 }
