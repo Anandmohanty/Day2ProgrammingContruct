@@ -18,6 +18,13 @@
             int age = Convert.ToInt32(Console.ReadLine());
             ifElse.VotingEligiblity(age);
 
+            Console.WriteLine("Enter first number ");
+            int numOne = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter second number ");
+            int numTwo = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter Third number ");
+            int numThree = Convert.ToInt32(Console.ReadLine());
+            ifElse.LargeNumber(numOne, numTwo, numThree);
 
 
         }
