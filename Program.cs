@@ -14,6 +14,11 @@
 
             ifElse.EvenOrOdd(valueOne);
 
+            Console.WriteLine("Enter your Age");
+            int age = Convert.ToInt32(Console.ReadLine());
+            ifElse.VotingEligiblity(age);
+
+
 
         }
     }

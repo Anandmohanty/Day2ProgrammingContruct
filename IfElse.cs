@@ -34,5 +34,19 @@ namespace Day2ProgrammingContruct
                 Console.WriteLine("Ggiven Number is Odd Number");
             }
         }
+        //  Write a C# Sharp program to read the age of a candidate and
+        //determine whether it is eligible for casting his/her own vote.
+        public void VotingEligiblity(int age)
+        {
+            if (age >= 18)
+            {
+                Console.WriteLine("You are Eligible For Voting ");
+            }
+            else
+            {
+                Console.WriteLine("You are age is below 18 so you are Not Eligible For Voting ");
+            }
+        }
+
     }
 }
