@@ -27,6 +27,14 @@
             ifElse.LargeNumber(numOne, numTwo, numThree);
 
 
+            Console.WriteLine("Enter your Math Mark");
+            int mathMark = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter your Physics Mark");
+            int phyMark = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter your Chemistry Mark");
+            int chemMark = Convert.ToInt32(Console.ReadLine());
+            ifElse.AdmissionCriteria(mathMark, phyMark, chemMark);
+
         }
     }
 }
