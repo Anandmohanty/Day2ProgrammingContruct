@@ -35,6 +35,12 @@
             int chemMark = Convert.ToInt32(Console.ReadLine());
             ifElse.AdmissionCriteria(mathMark, phyMark, chemMark);
 
+            ////Switch Statment//
+            SwitchStatement switchStatement = new SwitchStatement();
+            Console.WriteLine("Enter Day Number in Between 1 to 7");
+            int dayNumber = Convert.ToInt32(Console.ReadLine());
+            switchStatement.WeekdayName(dayNumber);
+
         }
     }
 }
