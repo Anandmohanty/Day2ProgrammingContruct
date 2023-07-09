@@ -41,6 +41,20 @@
             int dayNumber = Convert.ToInt32(Console.ReadLine());
             switchStatement.WeekdayName(dayNumber);
 
+            Console.WriteLine("Enter Number \n 1 for Addition \n 2 for Subtraction \n 3 for Multiplication \n 4 for Division");
+            int operationNumber = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter first Number");
+            int numberOne = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Enter second Number");
+            int numberTwo = Convert.ToInt32(Console.ReadLine());
+            switchStatement.ArithmaticOperation(operationNumber, numberOne, numberTwo);
+
+            ////For Loop////
+            Console.Write("Enter a number for power of 2");
+            int number = Convert.ToInt32(Console.ReadLine());
+            ForLoop forLoop = new ForLoop();
+            forLoop.PowerOf2(number);
+
         }
     }
 }
