@@ -55,6 +55,11 @@
             ForLoop forLoop = new ForLoop();
             forLoop.PowerOf2(number);
 
+            Console.WriteLine("Enter Number for Sum of Square ");
+            int numforsqure = Convert.ToInt32(Console.ReadLine());
+            forLoop.SumOfSquare(numforsqure);
+
+
         }
     }
 }
